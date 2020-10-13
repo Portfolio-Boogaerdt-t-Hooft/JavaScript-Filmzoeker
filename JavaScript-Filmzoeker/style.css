@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.title{
+    color: lightgrey;
+    font-size:50px;
+    text-align: center;
+}
+.radiobar{
+    color: lightgrey;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.filter{
+    display:inline;
+}
+.allMovies{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+img{
+    padding-top:10px;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 200ms ease-out;
+}

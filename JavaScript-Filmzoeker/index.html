@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Filmzoeker</title>
+
+</head>
+
+<body>
+    <h1 class="title">Filmzoeker</h1>
+    <nav class="radiobar">
+        <div class="filter">
+            <input type="radio" id="allmovies" name="moviefilter" value="allmovies" checked>
+            <label for="allmovies">Alle films</label>
+        </div>
+        <div class="filter">
+            <input type="radio" id="newestmovies" name="moviefilter" value="newestmovies">
+            <label for="newestmovies">Nieuwste films (vanaf 2014)</label>
+        </div>
+        <div class="filter">
+            <input type="radio" id="avengers" name="moviefilter" value="avengers">
+            <label for="avengers">Avengers films</label>
+        </div>
+        <div class="filter">
+            <input type="radio" id="xmen" name="moviefilter" value="xmen">
+            <label for="xmen">X-Men films</label>
+        </div>
+        <div class="filter">
+            <input type="radio" id="princess" name="moviefilter" value="princess">
+            <label for="princess">Princess films</label>
+        </div>
+        <div class="filter">
+            <input type="radio" id="batman" name="moviefilter" value="batman">
+            <label for="batman">Batman films</label>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <ul class="allMovies" id="allMovies">
+
+            </ul>
+
+        </div>
+    </main>
+
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
